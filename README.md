@@ -48,7 +48,7 @@ $ $GRAALVM_HOME/bin/gu install -L target/truffle-nfi-wrapper-0.1.0-component.jar
 You can install nfiwrapper via [content catalog](https://github.com/YaSuenag/nfiwrapper/blob/master/nfiwrapper-catalog-java11.properties) on this repository. This catalog contains information for GraalVM 20.1.0 and 20.2.0.
 
 ```
-$ ~/graalvm/graalvm-ce-java11-20.2.0/bin/gu install -C https://raw.githubusercontent.com/YaSuenag/nfiwrapper/master/nfiwrapper-catalog-java11.properties nfiwrapper
+$ gu install -C https://raw.githubusercontent.com/YaSuenag/nfiwrapper/master/nfiwrapper-catalog-java11.properties nfiwrapper
 ```
 
 # Try nfiwrapper
